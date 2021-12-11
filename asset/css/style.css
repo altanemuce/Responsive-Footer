@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section h1{
+    text-align: center;
+    font-family: 'raleway',sans-serif;
+    font-size: 2.5em;
+    color: #ff5f6b;
+    font-weight:400 ;
+}
+
+#footer{
+    background-color: #ff5f6b;
+}
+
+footer{
+    min-height: 250px;
+    /* İsterseneiz Resim koyabilirsiniz */
+    /* background: url() no-repeat center center/cover; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway',sans-serif;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-box{
+    display: flex;
+    width: 250px;
+    margin: 20px;
+    color: #ffd;
+}
+
+.content-box p{
+    color: #222;
+    font-weight: 400;
+}
+
+.content-box i{
+    font-size: 36px;
+    margin-right: 22px;
+}
+
+.content-box form input[type="text"]{
+    border: 0;
+    width: 200px;
+    height: 32px;
+    padding: 0 4px;
+    margin-bottom: 15px;
+}
+
+.content-box form .btn{
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    background: transparent;
+    border-radius:4px ;
+    width: 100%;
+    color: #ffd;
+}
+
+footer .social-icons{
+    font-size: 32px;
+}
